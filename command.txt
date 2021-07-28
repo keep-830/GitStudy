@@ -3,7 +3,8 @@ git add <file> #添加文件到暂存区
 git commit -m "submit message" #提交文件到仓库
 
 git status #查看当前工作区状态
-git diff <file> #查看当前文件的改变情况
+git diff <file> #查看未暂存的文件与暂存区快照之间的差异
+git diff --cached #查看暂存区文件与上次提交的文件之间的差异
 
 git log #查看提交历史记录
 git log --pretty=oneline #查看简略的提交历史信息
