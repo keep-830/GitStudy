@@ -1,6 +1,13 @@
 git init #初始化git仓库
-git add <file> #添加文件到缓存区
+git add <file> #添加文件到暂存区
 git commit -m "submit message" #提交文件到仓库
 
 git status #查看当前工作区状态
 git diff <file> #查看当前文件的改变情况
+
+git log #查看提交历史记录
+git log --pretty=oneline #查看简略的提交历史信息
+git reset --hard HEAD^ #回退上一个版本 HEAD^^上上个版本 
+git reset --hard <commit id> #回退到指定的版本；commit id 版本号，只需输入前几位
+git reflog #查看记录的每一条命令
+
